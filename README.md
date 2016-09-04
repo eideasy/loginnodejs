@@ -11,7 +11,7 @@ For beginners only, sorry coders!
 ```
 #!bash
 
-git clone https://bitbucket.org/smartid/nodesample
+git clone https://bitbucket.org/smartid/nodejssample
 ```
 
 * Go to https://api.smartid.ee and register your website with catalog https://mydomen.ee/. Oauth redirect_uri can be the same.
