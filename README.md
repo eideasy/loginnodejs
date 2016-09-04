@@ -14,15 +14,9 @@ For beginners only, sorry coders!
 git clone https://bitbucket.org/smartid/loginnodejs
 ```
 
-* Go to https://api.smartid.ee and register your website http://mydomain.ee or https://mydomain.ee. Oauth redirect_uri must be http://mydomain.ee/loginnodejs or https://mydomain.ee/loginnodejs
-* Open file mydomain.ee/loginnodejs/main.js and copy/paste the "OAuth clientId/secret" keys and write to redirectUri mydomain.ee/loginnodejs
-```
-#!bash
-
-nano loginnodejs/main.js
-```
-
-* Start the nodejs process and open the application at mydomen.ee/ and click on eIDAS logo to start the login process!
+* Go to https://api.smartid.ee and register your website http://mydomain.ee or https://mydomain.ee. Oauth redirect_uri must also be http://mydomain.ee or https://mydomain.ee
+* Open file main.js and copy/paste the "OAuth clientId/secret" keys and write to redirect_uri http(s)://mydomain.ee/loginnodejs
+* Start the nodejs process, open the application at mydomen.ee/ and click on eIDAS logo to start the login process!
 
 ### Who do I talk to? ###
 
