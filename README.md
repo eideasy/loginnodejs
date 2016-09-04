@@ -7,7 +7,7 @@ This sample application is one of the easiest ways to get up and running with Sm
 For beginners only, sorry coders!
 
 * Open terminal, login to your server 
-* Upload the files from repository  with command
+* Get the files from repository  with command
 ```
 #!bash
 
