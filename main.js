@@ -4,9 +4,9 @@ var clientSecret = 'here_put_your_secret_key';
 var redirect_uri = "http://mydomen.ee/samplescript";
 //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-var express = require('express'),
-        app = express();
-var request = require('request');
+var express = require('express')
+  , app = express()
+  , request = require('request')
 
 var oauth2 = require('simple-oauth2')({
     clientID: clientId,
@@ -23,7 +23,7 @@ var authorization_uri = oauth2.authCode.authorizeURL({
 
 
 //Make it possible to show image
-app.use(express.static(__dirname));
+app.use(express.static('public'));
 
 
 // Initial page redirecting to Github
