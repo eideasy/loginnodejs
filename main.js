@@ -11,7 +11,7 @@ var express = require('express')
 var oauth2 = require('simple-oauth2')({
     clientID: clientId,
     clientSecret: clientSecret,
-    site: 'https://api.smartid.ee',
+    site: 'https://id.smartid.ee',
     tokenPath: '/oauth/access_token',
     authorizationPath: '/oauth/authorize'
 });
