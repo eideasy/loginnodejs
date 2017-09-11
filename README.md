@@ -2,21 +2,13 @@
 
 This sample application is one of the easiest ways to get up and running with Smart-ID secure login service.
 
-### How do I get set up? ###
-
-For beginners only, sorry coders!
-
-* Open terminal, login to your server 
-* Get the files from repository  with command
-```
-#!bash
-
-git clone https://bitbucket.org/smartid/loginnodejs
+### How do I get going? ###
 ```
 
-* Go to https://api.smartid.ee and register your website http://mydomain.ee or https://mydomain.ee. Oauth redirect_uri must be same
-* Open file main.js and copy/paste the "OAuth clientId/secret" keys and write to redirect_uri http(s)://mydomain.ee/loginnodejs
-* Start the nodejs process, open the application at mydomen.ee/ and click on eIDAS logo to start the login process!
+* Clone this repo and start the app at https://example.com
+* Go to https://id.smartid.ee and register your website https://example.com. Oauth redirect_uri must be from same domain
+* Open file main.js and copy/paste the "OAuth clientId/secret" keys.  write to redirect_uri http(s)://example.com/loginnodejs
+* Open the application and click on eIDAS logo to start the login process!
 
 ### Who do I talk to? ###
 
