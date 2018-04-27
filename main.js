@@ -22,11 +22,11 @@ var authorization_uri = oauth2.authCode.authorizeURL({
 });
 
 
-//Make it possible to show image
+//Make it possible to show the image
 app.use(express.static('public'));
 
 
-// Initial page redirecting to Github
+// Initial page redirecting to Smart ID 
 app.get('/auth', function (req, res) {
 
 });
@@ -59,7 +59,7 @@ app.get('/', function (req, res) {
         console.log("Saving token");
         token = oauth2.accessToken.create(result);
         request({
-            url: 'https://api.smartid.ee/api/v2/user_data',
+            url: 'https://id.smartid.ee/api/v2/user_data',
             headers: {
                 "Authorization": "Bearer " + token.token.access_token
             }
